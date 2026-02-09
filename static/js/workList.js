@@ -47,7 +47,7 @@ function showProjectById(projectId) {
         document.body.style.right = '0';
         document.body.style.overflow = 'hidden';
 
-        modal.style.display = 'block';
+        modal.style.display = 'flex';
 
     } else {
         console.warn(`ID "${projectId}"에 해당하는 프로젝트를 찾을 수 없습니다.`);

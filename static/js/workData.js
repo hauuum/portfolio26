@@ -215,5 +215,5 @@ const projects = [
         teamNum: '퍼블리셔 1명, 백엔드 2명',
         contribution: '기여도 100%',
         imgs: ['/portfolio26/static/images/work/mp/mp01.jpg', '/portfolio26/static/images/work/mp/mp02.png', '/portfolio26/static/images/work/mp/mp03.png', '/portfolio26/static/images/work/mp/mp04.jpg'],
-},
+    },
 ];
