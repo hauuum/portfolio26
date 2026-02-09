@@ -11,7 +11,7 @@ const projects = [
         teamNum: '퍼블리셔 1명, 백엔드 3명',
         contribution: '기여도 80%',
         link: 'https://www.kogl.or.kr/index.do',
-        imgs: ['/static/images/work/koglNew/koglNew01.png', '/static/images/work/koglNew/koglNew02.png'],
+        imgs: ['/portfolio26/static/images/work/koglNew/koglNew01.png', '/portfolio26/static/images/work/koglNew/koglNew02.png'],
     },
     {
         id: 'ucms',
@@ -24,7 +24,7 @@ const projects = [
         achievement: ['#어드민','#SA(소프트웨어 접근성)','#디자인시스템','#Echart'],
         teamNum: '퍼블리셔 2명, 백엔드 4명',
         contribution: '기여도 50%',
-        imgs: ['/static/images/work/ucms/ucms01.png', '/static/images/work/ucms/ucms02.png'],
+        imgs: ['/portfolio26/static/images/work/ucms/ucms01.png', '/portfolio26/static/images/work/ucms/ucms02.png'],
     },
     {
         id: 'intranet',
@@ -37,7 +37,7 @@ const projects = [
         achievement: ['#반응형', '#React', '#인트라넷'],
         teamNum: '퍼블리셔 2명, 백엔드 2명',
         contribution: '기여도 30%',
-        imgs: ['/static/images/work/intranet/intranet01.png'],
+        imgs: ['/portfolio26/static/images/work/intranet/intranet01.png'],
     },
     {
         id: 'osc',
@@ -51,7 +51,7 @@ const projects = [
         teamNum: '퍼블리셔 1명, 백엔드 3명',
         contribution: '기여도 100%',
         link: 'https://www.copyright.or.kr/kccip/osc/main/main.do',
-        imgs: ['/static/images/work/osc/osc00.png', '/static/images/work/osc/osc01.png', '/static/images/work/osc/osc03.png'],
+        imgs: ['/portfolio26/static/images/work/osc/osc00.png', '/portfolio26/static/images/work/osc/osc01.png', '/portfolio26/static/images/work/osc/osc03.png'],
     },
     {
         id: 'bank',
@@ -65,7 +65,7 @@ const projects = [
         teamNum: '퍼블리셔 3명, 백엔드 6명',
         contribution: '기여도 40%',
         link: 'https://www.bok.or.kr/portal/main/main.do',
-        imgs: ['/static/images/work/bank/bank00.png'],
+        imgs: ['/portfolio26/static/images/work/bank/bank00.png'],
     },
     {
         id: 'museum',
@@ -79,7 +79,7 @@ const projects = [
         teamNum: '퍼블리셔 1명, 백엔드 6명',
         contribution: '기여도 100%',
         link: 'https://www.bok.or.kr/museum/main/main.do',
-        imgs: ['/static/images/work/museum/museum00.png', '/static/images/work/museum/museum01.png'],
+        imgs: ['/portfolio26/static/images/work/museum/museum00.png', '/portfolio26/static/images/work/museum/museum01.png'],
     },
     {
         id: 'imer',
@@ -93,7 +93,7 @@ const projects = [
         teamNum: '퍼블리셔 1명, 백엔드 6명',
         contribution: '기여도 100%',
         link: 'https://www.bok.or.kr/imer/main/main.do',
-        imgs: ['/static/images/work/imer/imer00.png'],
+        imgs: ['/portfolio26/static/images/work/imer/imer00.png'],
     },
     {
         id: 'kogl',
@@ -106,7 +106,7 @@ const projects = [
         achievement: ['#웹접근성인증', '#웹어워드코리아','#Echart', '#어드민'],
         teamNum: '퍼블리셔 1명, 백엔드 3명',
         contribution: '기여도 100%',
-        imgs: ['/static/images/work/kogl/kogl01.png', '/static/images/work/kogl/kogl02.png', '/static/images/work/kogl/kogl03.png'],
+        imgs: ['/portfolio26/static/images/work/kogl/kogl01.png', '/portfolio26/static/images/work/kogl/kogl02.png', '/portfolio26/static/images/work/kogl/kogl03.png'],
     },
     {
         id: 'ggwf',
@@ -120,7 +120,7 @@ const projects = [
         teamNum: '퍼블리셔 1명, 백엔드 2명',
         contribution: '기여도 100%',
         link: 'https://account.ggwf.or.kr/main/freshman_main.do',
-        imgs: ['/static/images/work/ggwf/ggwf01.png'],
+        imgs: ['/portfolio26/static/images/work/ggwf/ggwf01.png'],
     },
     {
         id: 'unpf',
@@ -134,7 +134,7 @@ const projects = [
         teamNum: '퍼블리셔 1명, 백엔드 1명',
         contribution: '기여도 100%',
         link: 'https://www.unpf.co.kr/portal/main/main.do',
-        imgs: ['/static/images/work/unpf/unpf00.png'],
+        imgs: ['/portfolio26/static/images/work/unpf/unpf00.png'],
     },
     {
         id: 'gtmp',
@@ -147,7 +147,7 @@ const projects = [
         achievement: ['#인트라넷', '#Echart', '#반응형', '#어드민'],
         teamNum: '퍼블리셔 1명, 백엔드 1명',
         contribution: '기여도 100%',
-        imgs: ['/static/images/work/gtmp/gtmp01.png'],
+        imgs: ['/portfolio26/static/images/work/gtmp/gtmp01.png'],
     },
     {
         id: 'kic',
@@ -160,7 +160,7 @@ const projects = [
         achievement: ['#제안','#React','#GSAP','#Echart', '#반응형'],
         teamNum: '퍼블리셔 1명',
         contribution: '기여도 100%',
-        imgs: ['/static/images/work/kic/kic01.png'],
+        imgs: ['/portfolio26/static/images/work/kic/kic01.png'],
     },
     {
         id: 'jeonjugi',
@@ -173,7 +173,7 @@ const projects = [
         achievement: ['#인트라넷/어드민', '#Hightcharts', '#반응형'],
         teamNum: '퍼블리셔 1명, 백엔드 2명',
         contribution: '기여도 100%',
-        imgs: ['/static/images/work/jeonjugi/jeonjugi01.png', '/static/images/work/jeonjugi/jeonjugi02.png'],
+        imgs: ['/portfolio26/static/images/work/jeonjugi/jeonjugi01.png', '/portfolio26/static/images/work/jeonjugi/jeonjugi02.png'],
     },
     {
         id: 'kict',
@@ -187,7 +187,7 @@ const projects = [
         teamNum: '퍼블리셔 1명, 백엔드 2명',
         contribution: '기여도 100%',
         link: 'https://nlic.go.kr/fireinfo/portal/main/main.do',
-        imgs: ['/static/images/work/kict/kict01.png', '/static/images/work/kict/kict02.png'],
+        imgs: ['/portfolio26/static/images/work/kict/kict01.png', '/portfolio26/static/images/work/kict/kict02.png'],
     },
     {
         id: 'youngsan',
@@ -201,7 +201,7 @@ const projects = [
         teamNum: '퍼블리셔 2명, 백엔드 1명',
         contribution: '기여도 50%',
         link: 'https://www.yongsan.go.kr/mayor/main/main.do',
-        imgs: ['/static/images/work/youngsan/youngsan01.png'],
+        imgs: ['/portfolio26/static/images/work/youngsan/youngsan01.png'],
     },
     {
         id: 'mp',
@@ -214,6 +214,6 @@ const projects = [
         achievement: ['#구글애널리틱스', '#어드민'],
         teamNum: '퍼블리셔 1명, 백엔드 2명',
         contribution: '기여도 100%',
-        imgs: ['/static/images/work/mp/mp01.jpg', '/static/images/work/mp/mp02.png', '/static/images/work/mp/mp03.png', '/static/images/work/mp/mp04.jpg'],
+        imgs: ['/portfolio26/static/images/work/mp/mp01.jpg', '/portfolio26/static/images/work/mp/mp02.png', '/portfolio26/static/images/work/mp/mp03.png', '/portfolio26/static/images/work/mp/mp04.jpg'],
 },
 ];
