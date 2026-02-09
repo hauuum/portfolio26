@@ -1,0 +1,310 @@
+/* modal */
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  width: 100vw;
+  height: 100vh;
+  z-index: 15;
+  display: none;
+}
+.modal .screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 17px 17px 31px 21px;
+}
+.modal .screen > div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  padding: 30px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 4;
+}
+.modal .screen .b-close {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  top: 40px;
+  right: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url(/portfolio26/static/images/ico-close.png);
+  background-size: contain;
+  background-position: center center;
+  z-index: 10;
+}
+.modal .base {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.modal .base span {
+  position: absolute;
+  background-size: 773px 120px;
+  background-image: url(/portfolio26/static/images/view.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 6;
+}
+.modal .base span.tl, .modal .base span.tr, .modal .base span.bl, .modal .base span.br {
+  width: 40px;
+  height: 40px;
+}
+.modal .base span.tl {
+  top: 0;
+  left: 0;
+  background-position: 0 0;
+}
+.modal .base span.tr {
+  top: 0;
+  right: 0;
+  background-position: -40px 0;
+}
+.modal .base span.bl {
+  bottom: 0;
+  left: 1px;
+  background-position: -80px 0;
+}
+.modal .base span.br {
+  bottom: 0;
+  right: 0;
+  background-position: -120px 0;
+}
+.modal .base span.tbr {
+  position: absolute;
+  height: 40px;
+  left: 40px;
+  right: 40px;
+  top: 0;
+  background-position: 0 -40px;
+  background-repeat: repeat-x;
+}
+.modal .base span.bbr {
+  position: absolute;
+  height: 40px;
+  left: 40px;
+  right: 38px;
+  bottom: 0;
+  background-position: 0 -80px;
+  background-repeat: repeat-x;
+}
+.modal .base span.lbr {
+  position: absolute;
+  width: 40px;
+  top: 38px;
+  bottom: 36px;
+  background-image: url(/portfolio26/static/images/view-sibe.png);
+  background-position: 0 0;
+  background-size: 80px 448px;
+  background-repeat: repeat-y;
+}
+.modal .base span.rbr {
+  width: 40px;
+  top: 38px;
+  bottom: 38px;
+  right: 0;
+  background-image: url(/portfolio26/static/images/view-sibe.png);
+  background-position: -40px 0;
+  background-size: 80px 471px;
+  background-repeat: repeat-y;
+}
+.modal #projectList {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  max-width: 1200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+}
+.modal .project-item {
+  position: relative;
+  width: 100%;
+  max-width: 680px;
+  height: calc(100vh - 60px);
+  margin: 0 10px;
+  transform: translateY(80%);
+  transition: 0.2s;
+  animation: view 0.21s linear forwards;
+}
+.modal .project-item__head {
+  padding: 16px 0;
+}
+.modal .project-item__head .ctgr {
+  display: block;
+  font-family: "SUIT Variable";
+  font-size: 14px;
+  font-weight: 500;
+  color: #6e6e6e;
+  padding-bottom: 2px;
+}
+.modal .project-item__head .name {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: var(--black);
+  font-family: "Recipekorea";
+}
+.modal .project-item__head .achievement {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+.modal .project-item__head .achievement li {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 10px;
+  background: #e8ecef;
+  color: var(--desc);
+  border-radius: 4px;
+  line-height: 1;
+}
+.modal .project-item__head .summary {
+  margin: 20px 0 8px;
+  font-weight: 500;
+  color: var(--black);
+}
+.modal .project-item__head .skill-tag {
+  margin-top: 12px;
+}
+.modal .project-item__head .skill-tag .tag {
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+}
+.modal .project-item__head .info {
+  display: flex;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  gap: 2px 16px;
+}
+.modal .project-item__head .info > * {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--desc);
+}
+.modal .project-item__head .info .date {
+  width: 100%;
+}
+.modal .project-item__head .info .teamNum {
+  position: relative;
+}
+.modal .project-item__head .info .teamNum::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  width: 2px;
+  height: 14px;
+  background: rgba(0, 0, 0, 0.08);
+  transform: translateY(-50%);
+}
+.modal .project-item__head .link {
+  width: 100%;
+}
+.modal .project-item__head .b-togo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #f5eef4;
+  background: #121921;
+  border: 1px solid #121921;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+  gap: 4px;
+}
+.modal .project-item__head .b-togo:hover {
+  background-color: #fff;
+  border: 1px solid #121921;
+  color: #121921;
+}
+.modal .project-item__body {
+  padding: 16px 0 0;
+}
+.modal .project-item__body .ctgr {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6e6e6e;
+  padding-bottom: 2px;
+}
+.modal .project-item__body .detail {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.modal .project-item__body .detail .desc {
+  flex-direction: column;
+}
+.modal .project-item__body .detail .desc li {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 6px;
+}
+.modal .project-item__body .detail .desc li::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 3px;
+  height: 3px;
+  background: var(--desc);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.modal .project-item__body .detail img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #efefef;
+}
+
+@media screen and (max-width: 1200px) {
+  .modal #projectList {
+    width: calc(100% - 20px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal .screen > div {
+    padding: 16px;
+  }
+  .modal .screen .b-close {
+    top: 24px;
+    right: 24px;
+  }
+  .modal .project-item__head .name {
+    font-size: 20px;
+  }
+  .modal .project-item__head .info {
+    gap: 4px 16px;
+  }
+  .modal .project-item__head .info *:not(:last-of-type)::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: initial !important;
+    right: -8px !important;
+    top: 50%;
+    width: 2px;
+    height: 14px;
+    background: rgba(0, 0, 0, 0.08);
+    transform: translateY(-50%);
+  }
+  .modal .project-item__head .info *:last-of-type::before {
+    display: none;
+  }
+}/*# sourceMappingURL=modal.css.map */

@@ -17,7 +17,7 @@ html,
 body {
     width: 100%;
     background-color: #f5eef4;
-    cursor: url(/static/images/ico-pointer.png), auto !important;
+    cursor: url(/portfolio26/static/images/ico-pointer.png), auto !important;
     scroll-behavior: smooth;
 }
 
@@ -43,7 +43,7 @@ main {
         top: 0;
         width: 100%;
         height: 100%;
-        background-image: url(/static/images/bg-pattern2.jpg);
+        background-image: url(/portfolio26/static/images/bg-pattern2.jpg);
         background-repeat: repeat;
         background-position: center center;
         opacity: 0.46;
@@ -85,60 +85,60 @@ section {
         border: 1px solid #efefef;
         border-radius: 4px;
         &.php {
-            background-image: url(/static/images/ico/ico-php.png);
+            background-image: url(/portfolio26/static/images/ico/ico-php.png);
         }
         &.bootstrap {
-            background-image: url(/static/images/ico/ico-bootstrap.svg);
+            background-image: url(/portfolio26/static/images/ico/ico-bootstrap.svg);
         }
         &.css {
-            background-image: url(/static/images/ico/ico-css.png);
+            background-image: url(/portfolio26/static/images/ico/ico-css.png);
         }
         &.html {
-            background-image: url(/static/images/ico/ico-html.png);
+            background-image: url(/portfolio26/static/images/ico/ico-html.png);
         }
         &.sass {
-            background-image: url(/static/images/ico/ico-sass.png);
+            background-image: url(/portfolio26/static/images/ico/ico-sass.png);
         }
         &.jquery {
-            background-image: url(/static/images/ico/ico-jquery.png);
+            background-image: url(/portfolio26/static/images/ico/ico-jquery.png);
         }
         &.eclips {
-            background-image: url(/static/images/ico/ico-eclips.png);
+            background-image: url(/portfolio26/static/images/ico/ico-eclips.png);
         }
         &.github {
-            background-image: url(/static/images/ico/ico-github.png);
+            background-image: url(/portfolio26/static/images/ico/ico-github.png);
         }
         &.js {
-            background-image: url(/static/images/ico/ico-js.png);
+            background-image: url(/portfolio26/static/images/ico/ico-js.png);
         }
         &.photoshop {
-            background-image: url(/static/images/ico/ico-photoshop.png);
+            background-image: url(/portfolio26/static/images/ico/ico-photoshop.png);
         }
         &.figma {
-            background-image: url(/static/images/ico/ico-figma.png);
+            background-image: url(/portfolio26/static/images/ico/ico-figma.png);
         }
         &.svn{
-            background-image: url(/static/images/ico/ico-svn.png);
+            background-image: url(/portfolio26/static/images/ico/ico-svn.png);
         }
         &.tailwind {
-            background-image: url(/static/images/ico/ico-tailwind.png);
+            background-image: url(/portfolio26/static/images/ico/ico-tailwind.png);
         }
         &.vsc {
-            background-image: url(/static/images/ico/ico-vsc.png);
+            background-image: url(/portfolio26/static/images/ico/ico-vsc.png);
         }
         &.zeplin {
-            background-image: url(/static/images/ico/ico-zeplin.png);
+            background-image: url(/portfolio26/static/images/ico/ico-zeplin.png);
         }
         &.cursor {
-            background-image: url(/static/images/ico/ico-cursor.png);
+            background-image: url(/portfolio26/static/images/ico/ico-cursor.png);
         }
         &.react {
             //background-color: #00D9FF;
-            background-image: url(/static/images/ico/ico-react.png);
+            background-image: url(/portfolio26/static/images/ico/ico-react.png);
         }
         &.gulp {
             //background-color: #00D9FF;
-            background-image: url(/static/images/ico/ico-gulp.svg);
+            background-image: url(/portfolio26/static/images/ico/ico-gulp.svg);
         }
     }
 }
@@ -890,7 +890,7 @@ section {
             width: 176px;
             aspect-ratio: 971 / 139;
             transform: rotate(338deg);
-            background: url(/static/images/font-wave.png) center center no-repeat;
+            background: url(/portfolio26/static/images/font-wave.png) center center no-repeat;
             background-size: contain;
         }
         .squares {
@@ -1126,459 +1126,5 @@ section {
 }
 
 
-/* footer */ 
-.footer {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    max-height: 400px;
-    &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url("/static/images/bg-pattern.png");
-        z-index: -1;
-        opacity: 0.06;
-    }
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    svg {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        max-height: 400px;
-        z-index: -1;
-    }
-    .txt {
-        padding: 160px 0 60px;
-        text-align: center;
-        p {
-            line-height: 1.8;
-            font-size: 28px;
-            font-family: "Recipekorea";
-            text-align: center;
-            color: #fff;
-            // background: linear-gradient(to bottom, #fba932, transparent);
-            // -webkit-background-clip: text;
-        }
-        .email {
-            position: relative;
-            display: inline-flex;
-            line-height: 1;
-            font-size: 18px;
-            font-family: "SUIT Variable";
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            margin-top: 32px;
-            color: rgba(248, 247, 253, 0.8);
-            &::before {
-                content: "";
-                display: block;
-                position: absolute;
-                left: 30px;
-                bottom: -6px;
-                width: 55%;
-                height: 2px;
-                background: #FFBA57;
-            }
-        }
-    }
-    .copyright {
-        position: relative;
-        width: 100%;
-        padding: 16px 0;
-        font-size: 14px;
-        text-align: center;
-        color: #fff;
-        &::before {
-            content: '';
-            display: block;
-            width: 100%;
-            height: 1px;
-            position: absolute;
-            left: 0;
-            top: 0;
-            background: rgba(255,255,255,.12);
-        }
-    }
-    #footer-img {
-        height: 100%;
-        width: 100%;
-        display: block;
-        overflow: visible;
-    }
-    
-    #center{
-        visibility: hidden;
-    }
-}
-@media screen and (max-width: 768px) {
-    .footer {
-        max-height: none;
-        .txt {
-            padding: 60px 10px 40px;
-            p {
-                font-size: 20px;
-                line-height: 1.54;
-            }
-            .email {
-                font-size: 15px;
-            }
-        }
-        #footer-img {
-            max-height: none;
-        }
-    }
-}
-@keyframes view {
-    100% {
-        transform: translateY(0);
-    }
-}
 
-
-
-/* modal */
-.modal {
-    position: fixed;
-    left: 0;
-    top: 0;
-    //padding: 50px;
-    background-color: rgba(0,0,0,0.6);
-    backdrop-filter: blur(10px);
-    width: 100vw;
-    height: 100vh;
-    z-index: 15;
-    display: none;
-    .screen {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        padding: 17px 17px 31px 21px;
-        > div {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            background-color: #FFF;
-            padding: 30px;
-            overflow-y: auto;
-            overflow-x: hidden;
-            z-index: 4;
-        }
-        .b-close {
-            position: fixed;
-            width: 40px;
-            height: 40px;
-            top: 40px;
-            right: 40px;
-            background-color: #fff;
-            border-radius: 50%;
-            background-image: url(/static/images/ico-close.png);
-            background-size: contain;
-            background-position: center center;
-            z-index: 10;
-        }
-    }
-    .base {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        span {
-            position: absolute;
-            background-size: 773px 120px;
-            background-image: url(/static/images/view.png);
-            background-repeat: no-repeat;
-            overflow: hidden;
-            z-index: 6;
-            &.tl, &.tr, &.bl, &.br {
-                width: 40px;
-                height: 40px;
-            } 
-            &.tl {
-                top: 0;
-                left: 0;
-                background-position: 0 0;
-            }
-            &.tr {
-                top: 0;
-                right: 0;
-                background-position: -40px 0;
-            }
-            &.bl {
-                bottom: 0;
-                left: 1px;
-                background-position: -80px 0;
-            }
-            &.br {
-                bottom: 0;
-                right: 0;
-                background-position: -120px 0;
-            }
-            &.tbr {
-                position: absolute;
-                height: 40px;
-                left: 40px;
-                right: 40px;
-                top: 0;
-                background-position: 0 -40px;
-                background-repeat: repeat-x;
-            }
-            &.bbr {
-                position: absolute;
-                height: 40px;
-                left: 40px;
-                right: 38px;
-                bottom: 0;
-                background-position: 0 -80px;
-                background-repeat: repeat-x;
-            }
-            &.lbr {
-                position: absolute;
-                width: 40px;
-                top: 38px;
-                bottom: 36px;
-                background-image: url(/static/images/view-sibe.png);
-                background-position: 0 0;
-                background-size: 80px 448px;
-                background-repeat: repeat-y;
-            }
-            &.rbr {
-                width: 40px;
-                top: 38px;
-                bottom: 38px;
-                right: 0;
-                background-image: url(/static/images/view-sibe.png);
-                background-position: -40px 0;
-                background-size: 80px 471px;
-                background-repeat: repeat-y;
-            }
-        }
-    }
-    #projectList {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        width: 100%;
-        max-width: 1200px;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        align-items: center;
-        justify-content: center;
-    }
-    .project-item {
-        position: relative;
-        width: 100%;
-        max-width: 680px;
-        height: calc(100vh - 60px);
-        margin: 0 10px;
-        transform: translateY(80%);
-        transition: 0.2s;
-        animation: view 0.21s linear forwards;
-        &__head {
-            padding: 16px 0;
-            .ctgr {
-                display: block;
-                font-family: "SUIT Variable";
-                font-size: 14px;
-                font-weight: 500;
-                color: #6e6e6e;
-                padding-bottom: 2px;
-            }
-            .name {
-                font-size: 28px;
-                margin-bottom: 12px;
-                color: var(--black);
-                font-family: "Recipekorea";
-            }
-            .achievement {
-                display: flex;
-                gap: 8px;
-                margin-top: 4px;
-                flex-wrap: wrap;
-                li {
-                    font-size: 14px;
-                    font-weight: 500;
-                    padding: 6px 10px;
-                    background: #e8ecef;
-                    color: var(--desc);
-                    border-radius: 4px;
-                    line-height: 1;
-                }
-            }
-            .summary {
-                margin: 20px 0 8px;
-                font-weight: 500;
-                color: var(--black);
-            }
-            .skill-tag {
-                margin-top: 12px;
-                .tag {
-                    background-color: #f0f0f0;
-                    border: 1px solid #f0f0f0;
-                }
-            }
-            .info {
-                display: flex;
-                margin-top: 16px;
-                flex-wrap: wrap;
-                gap: 2px 16px;
-                > * {
-                    font-size: 15px;
-                    font-weight: 500;
-                    color: var(--desc);
-                }
-                .date {
-                    width: 100%;
-                }
-                .teamNum {
-                    position: relative;
-                    // color: #2e2e2e;
-                    // font-size: 15px;
-                    &::before {
-                        content: '';
-                        display: inline-block;
-                        position: absolute;
-                        right: -8px;
-                        top: 50%;
-                        width: 2px;
-                        height: 14px;
-                        background: rgba(0,0,0,0.08);
-                        transform: translateY(-50%);
-
-                    }
-                }
-            }
-            .link {
-                width: 100%;
-                // margin-top: 32px;
-            }
-            .b-togo {
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                padding: 8px 16px;
-                margin-top: 24px;
-                font-size: 14px;
-                color: #f5eef4;
-                background: #121921;
-                border: 1px solid #121921;
-                border-radius: 4px;
-                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
-                gap: 4px;
-                &:hover {
-                    background-color: #fff;
-                    border: 1px solid #121921;
-                    color: #121921;
-                }
-            }
-        }
-        &__body {
-            padding: 16px 0 0;
-            .ctgr {
-                font-size: 14px;
-                font-weight: 500;
-                color: #6e6e6e;
-                padding-bottom: 2px;
-            }
-            .detail {
-                display: flex;
-                flex-direction: column;
-                gap: 24px;
-                .desc {
-                    flex-direction: column;
-                    li {
-                        position: relative;
-                        padding-left: 10px;
-                        margin-bottom: 6px;
-                        &::before {
-                            content: "";
-                            display: inline-block;
-                            position: absolute;
-                            left: 0;
-                            top: 9px;
-                            width: 3px;
-                            height: 3px;
-                            background: var(--desc);
-                            border-radius: 50%;
-                            margin-right: 8px;
-                        }
-                    }
-                }
-                img {
-                    display: block;
-                    width: 100%;
-                    height: auto;
-                    border: 1px solid #efefef;
-                }
-            }
-        }
-        
-    }
-}
-
-
-@media screen and (max-width: 1200px) {
-    .modal {
-        #projectList {
-            width: calc(100% - 20px);
-        }
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .modal {
-        .screen {
-            > div {
-                padding: 16px;
-            }
-            .b-close {
-                top: 24px;
-                right: 24px;
-            }
-        }
-        .project-item {
-            &__head {
-                .name {
-                    font-size: 20px;
-                }
-                .info {
-                    gap: 4px 16px;
-                    * {
-                        &:not(:last-of-type) {
-                            &::before {
-                                content: "";
-                                display: inline-block;
-                                position: absolute;
-                                left: initial !important;
-                                right: -8px !important;
-                                top: 50%;
-                                width: 2px;
-                                height: 14px;
-                                background: rgba(0, 0, 0, 0.08);
-                                transform: translateY(-50%);
-                            }
-                        }
-                        &:last-of-type {
-                            &::before {
-                                display: none;
-                            }
-                        }
-                    }
-                  
-                }
-            }
-        }
-    }
-}
 
