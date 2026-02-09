@@ -154,7 +154,7 @@ const projects = [
         index: 12,
         projectName: '한국투자증권',
         summary: 'React로 구현한 한국투자증권 제안 퍼블리싱 화면',
-        date: '2024.08 ',
+        date: '2025.03',
         desc: ['GSAP와 Echart 라이브러리를 활용하여 데이터 시각화 구현', 'useRef, useEffect등 react hook을 이용하여 패럴럭스 효과 처리'],
         skills: ['react', 'sass', 'js', 'tailwind', 'github', 'zeplin'],
         achievement: ['#제안','#React','#GSAP','#Echart', '#반응형'],
