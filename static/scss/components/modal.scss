@@ -132,6 +132,9 @@
         // transform: translate(-50%, -50%);
         align-items: center;
         justify-content: center;
+        transform: translateY(80%);
+        transition: 0.2s;
+        animation: view 0.21s linear forwards;
     }
     .project-item {
         position: relative;
@@ -139,9 +142,8 @@
         // max-width: 680px;
         height: calc(100vh - 60px);
         // margin: 0 10px;
-        transform: translateY(80%);
-        transition: 0.2s;
-        animation: view 0.21s linear forwards;
+       
+        
         &__head {
             padding: 16px 0;
             .ctgr {
@@ -283,6 +285,13 @@
         
     }
 }
+
+@keyframes view {
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 
 // @media screen and (max-width: 1200px) {

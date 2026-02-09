@@ -179,17 +179,17 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	});
 
-	document.querySelectorAll('.project-card').forEach(card => {
-		card.addEventListener('mouseenter', function() {
-			this.style.transform = 'translateY(-10px)';
-		});
+	// document.querySelectorAll('.project-card').forEach(card => {
+	// 	card.addEventListener('mouseenter', function() {
+	// 		this.style.transform = 'translateY(-10px)';
+	// 	});
 		
-		card.addEventListener('mouseleave', function() {
-			if (!this.classList.contains('hidden')) {
-				this.style.transform = 'translateY(0)';
-			}
-		});
-	});
+	// 	card.addEventListener('mouseleave', function() {
+	// 		if (!this.classList.contains('hidden')) {
+	// 			this.style.transform = 'translateY(0)';
+	// 		}
+	// 	});
+	// });
 
 
 	// Footer 스크롤 도달하면 물결치기

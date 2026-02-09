@@ -1061,11 +1061,6 @@ svg .y {
     max-height: none;
   }
 }
-@keyframes view {
-  100% {
-    transform: translateY(0);
-  }
-}
 /* modal */
 .modal {
   position: fixed;
@@ -1192,14 +1187,14 @@ svg .y {
   height: calc(100vh - 60px);
   align-items: center;
   justify-content: center;
+  transform: translateY(80%);
+  transition: 0.2s;
+  animation: view 0.21s linear forwards;
 }
 .modal .project-item {
   position: relative;
   width: 100%;
   height: calc(100vh - 60px);
-  transform: translateY(80%);
-  transition: 0.2s;
-  animation: view 0.21s linear forwards;
 }
 .modal .project-item__head {
   padding: 16px 0;
@@ -1336,6 +1331,11 @@ svg .y {
   border: 1px solid #efefef;
 }
 
+@keyframes view {
+  100% {
+    transform: translateY(0);
+  }
+}
 @media screen and (max-width: 768px) {
   .modal .screen > div {
     padding: 16px;

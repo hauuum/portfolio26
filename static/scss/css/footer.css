@@ -107,9 +107,4 @@
   .footer #footer-img {
     max-height: none;
   }
-}
-@keyframes view {
-  100% {
-    transform: translateY(0);
-  }
 }/*# sourceMappingURL=footer.css.map */
