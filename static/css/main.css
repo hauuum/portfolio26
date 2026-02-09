@@ -1066,12 +1066,10 @@ svg .y {
   position: fixed;
   left: 0;
   top: 0;
-  align-items: center;
-  justify-content: center;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: 10;
   display: none;
 }
@@ -1182,19 +1180,23 @@ svg .y {
   background-repeat: repeat-y;
 }
 .modal #projectList {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 100%;
   max-width: 680px;
-  height: calc(100vh - 60px);
-  align-items: center;
-  justify-content: center;
-  transform: translateY(80%);
-  transition: 0.2s;
-  animation: view 0.21s linear forwards;
+  height: 100%;
+  max-height: calc(100vh - 80px);
+  transform: translate(-50%, -50%);
 }
 .modal .project-item {
   position: relative;
   width: 100%;
-  height: calc(100vh - 60px);
+  width: 100%;
+  height: 100%;
+  transform: translateY(80%);
+  transition: 0.2s;
+  animation: view 0.21s linear forwards;
 }
 .modal .project-item__head {
   padding: 16px 0;
