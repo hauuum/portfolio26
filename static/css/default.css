@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Mozilla+Headline:wght@200..700&display=swap");
-@font-face {
-  font-family: "TtangsBudaeJjigae";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeL.woff2") format("woff2");
-  font-weight: 300;
-  font-display: swap;
-}
+@import url("https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css");
 @font-face {
   font-family: "S-CoreDream-4Regular";
   src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff") format("woff");
@@ -14,6 +9,12 @@
 @font-face {
   font-family: "S-CoreDream-5Medium";
   src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "S-CoreDream-9Black";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -28,7 +29,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "S-CoreDream-4Regular";
+  font-family: "SUIT Variable";
   font-weight: 400;
   line-height: 1.5;
 }
