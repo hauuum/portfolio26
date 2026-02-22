@@ -246,7 +246,8 @@
                 display: flex;
                 flex-direction: column;
                 gap: 24px;
-                .desc {
+                .desc,
+                .troubleShooting {
                     flex-direction: column;
                     li {
                         position: relative;

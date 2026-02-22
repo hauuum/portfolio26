@@ -1,7 +1,30 @@
 const projects = [
     {
-        id: 'koglNew',
+        id: 'weatherOutfit',
         index: 1,
+        projectName: '서울시 날씨어때',
+        summary: '서울시 공공데이터 API를 활용하여 각 자치구별 실시간 기온을 파악하고, 이에 적합한 옷차림을 제안하는 서비스입니다. <br /> 퍼블리셔로서 쌓아온 UI 구성 능력에 NextJS와 AI에이전트(클로드)를 활용한 바이브코딩으로 기획부터 배포까지 단기간 내에 완성한 풀스택 미니 프로젝트입니다.',
+        date: '2026.01',
+        desc: ['초기 렌더링 속도 개선 및 SEO 최적화를 위해 Next.js의 서버 사이드 렌더링을 활용했으며, 이미지 최적화 컴포넌트를 통해 데이터 소모를 최소화', 
+            '서울시 공공데이터를 활용하여 사용자가 검색한 서울시 내 자치구 기반의 기온 정보를 제공', 
+            '기온별로 정의된 특정 키워드를 바탕으로 Pexels 오픈소스 API를 호출하여, 현재 날씨에 어울리는 룩북 이미지를 동적으로 노출', 
+            'API key와 같은 민감한 정보는 .env.local 환경 변수로 관리하여 보안성 확보',
+        ],
+        troubleShooting: [
+            '초기 데이터 통신을 위해 axios를 도입 👉 브라우저 내장된 API인 fetch변경하여 외부 라이브러리의 의존성을 배제',
+            'AI를 활용한 바이브코딩은 속도가 빠르지만, 세부적인 인터랙션이나 정교한 마크업 구조 누락 👉 추가적인 시맨틱 마크업 및 tailwind CSS를 활용한 반응형 처리를 고도화 함 '
+        ]
+        ,
+        skills: ['react', 'nextjs', 'js', 'tailwind', 'github', 'vercel'],
+        achievement: ['#사이드 프로젝트','#반응형', '#React','#NextJS', '#Tailwind CSS'],
+        teamNum: '퍼블리셔 1명',
+        contribution: '기여도 100%',
+        link: 'https://weather-outfit-xi.vercel.app/',
+        imgs: ['/portfolio26/static/images/work/weather-outfit/weather-outfit.png'],
+    },
+    {
+        id: 'koglNew',
+        index: 2,
         projectName: '공공누리(공공저작물 시스템)',
         summary: '2025년 공공누리 서비스 UI/UX 디자인 개편 및 웹접근성 심사 갱신',
         date: '2025.04 ~ 07',
@@ -15,7 +38,7 @@ const projects = [
     },
     {
         id: 'ucms',
-        index: 2,
+        index: 3,
         projectName: 'U-CMS 솔루션 v0.3 for cloude',
         summary: '자사 U-CMS 솔루션 v3.0 개편 및 소개페이지 구축',
         date: '2025.02 ~ 06',
@@ -28,7 +51,7 @@ const projects = [
     },
     {
         id: 'intranet',
-        index: 3,
+        index: 4,
         projectName: '인트라넷 업무보고 일지',
         summary: '사내 인트라넷 일일 업무보고 시스템 구축',
         date: '2025.04',
@@ -41,7 +64,7 @@ const projects = [
     },
     {
         id: 'osc',
-        index: 4,
+        index: 5,
         projectName: '해외저작권 등록·출원 지원시스템',
         summary: '해외 저작권 등록과 산업재산권(상표·특허·디자인) 출원을 지원하는 플랫폼 구축 및 운영',
         date: '2023.07 ~ 2025.7',
@@ -55,7 +78,7 @@ const projects = [
     },
     {
         id: 'bank',
-        index: 5,
+        index: 6,
         projectName: '한국은행',
         summary: '한국은행 홈페이지 UX/UI 개편 및 운영',
         date: '2024.02 ~ 06',
@@ -69,7 +92,7 @@ const projects = [
     },
     {
         id: 'museum',
-        index: 6,
+        index: 7,
         projectName: '화폐박물관',
         summary: '화폐박물관 (한국은행 패밀리사이트) UX/UI 개편 및 운영',
         date: '2024.02 ~ 06',
@@ -83,7 +106,7 @@ const projects = [
     },
     {
         id: 'imer',
-        index: 7,
+        index: 8,
         projectName: '경제연구원',
         summary: '경제연구원 (한국은행 패밀리사이트) UX/UI 개편 및 운영',
         date: '2024.02 ~ 06',
@@ -97,7 +120,7 @@ const projects = [
     },
     {
         id: 'kogl',
-        index: 8,
+        index: 9,
         projectName: '공공누리(공공저작물 시스템)',
         summary: '공공누리 시스템 통합검색 개편 및 운영(2024)',
         date: '2025.04 ~ 07 ',
@@ -110,7 +133,7 @@ const projects = [
     },
     {
         id: 'ggwf',
-        index: 9,
+        index: 10,
         projectName: '경기도 노동자 통장',
         summary: '경기도 청년 노동자 통장 운영 및 유지보수',
         date: '2025.04 ~ 07 ',
@@ -124,7 +147,7 @@ const projects = [
     },
     {
         id: 'unpf',
-        index: 10,
+        index: 11,
         projectName: 'U&PLATFORM',
         summary: 'U&PLATFORM 신규 웹사이트 구축',
         date: '2025.02',
@@ -138,7 +161,7 @@ const projects = [
     },
     {
         id: 'gtmp',
-        index: 11,
+        index: 12,
         projectName: '발전용 H급 가스터빈 고온부품용 소재물성 DB 시스템',
         summary: '발전용 H급 가스터빈 고온부품용 소재물성 DB 시스템 구축',
         date: '2024.01 ',
@@ -151,7 +174,7 @@ const projects = [
     },
     {
         id: 'kic',
-        index: 12,
+        index: 13,
         projectName: '한국투자증권',
         summary: 'React로 구현한 한국투자증권 제안 퍼블리싱 화면',
         date: '2025.03',
@@ -164,7 +187,7 @@ const projects = [
     },
     {
         id: 'jeonjugi',
-        index: 13,
+        index: 14,
         projectName: '건축물 전주기 화재안전 통합 플랫폼',
         summary: '건축물 전주기 화재안전 통합 플랫폼 구축',
         date: '2024.10 ~ 2024.12',
@@ -177,7 +200,7 @@ const projects = [
     },
     {
         id: 'kict',
-        index: 14,
+        index: 15,
         projectName: '물류시설 화재안전 기반정보 관리시스템',
         summary: '물류시설 화재안전 기반정보 관리시스템 구축 및 운영',
         date: '2023.02 ~ 2023.12',
@@ -191,7 +214,7 @@ const projects = [
     },
     {
         id: 'youngsan',
-        index: 15,
+        index: 16,
         projectName: '용산구청 열린구청장실 운영',
         summary: '용산구청 열린구청장실 민선8기 공약사업, 매니페스토 구축',
         date: '2024.08',
@@ -205,7 +228,7 @@ const projects = [
     },
     {
         id: 'mp',
-        index: 16,
+        index: 17,
         projectName: '메이커퍼즐 플랫폼',
         summary: '메이커퍼즐 플랫폼 구축 및 운영',
         date: '2020.04 ~ 2022.01',

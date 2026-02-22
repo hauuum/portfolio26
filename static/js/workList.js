@@ -75,7 +75,7 @@ function renderSingleProject(project) {
                             ${project.achievement.map(item => `<li>${item}</li>`).join('')}
                         </ul>
                         <p class="summary">
-                            <span class="ctgr">주요업무</span>
+                            <span class="ctgr">서비스 설명</span>
                             ${project.summary}
                         </p>
                         <div class="info">
@@ -96,6 +96,16 @@ function renderSingleProject(project) {
                             <ul class="desc">
                                 ${project.desc.map(text => `<li>${text}</li>`).join('')}
                             </ul>
+                             ${project.troubleShooting && project.troubleShooting.length > 0 
+                                ? `<div>
+                                        <h4 class="ctgr">트러블슈팅</h4>
+                                        <ul class="troubleShooting">
+                                            ${project.troubleShooting.map(item => `<li>${item}</li>`).join('')}
+                                        </ul>
+                                    </div> `
+                                : ''
+                            }
+                            
                             ${project.imgs && project.imgs.length
                                   ? project.imgs.map((img, index) => `
                                       <img src="${img}" alt="${project.projectName} 이미지 ${index + 1}" loading="lazy">`).join('')
@@ -103,6 +113,7 @@ function renderSingleProject(project) {
                               }
                         </div>
                     </div>
+                   
                 </div>
             </div>
             <div class="base">

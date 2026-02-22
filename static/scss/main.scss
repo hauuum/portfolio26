@@ -1,7 +1,7 @@
-@import 'default';
-@import 'components/gnb';
-@import 'components/footer';
-@import 'components/modal';
+@use 'default' as *;
+@use 'components/gnb' as *;
+@use 'components/footer' as *;
+@use 'components/modal' as *;
 
 :root {
     --black: #1a1a1a;
@@ -10,7 +10,6 @@
     --primary : #7e689b;
     --secondary : #9d97d3;
     --accent: #4A7BA7;
-    
 }
 
 /* common*/
@@ -141,8 +140,17 @@ section {
             //background-color: #00D9FF;
             background-image: url(/portfolio26/static/images/ico/ico-gulp.svg);
         }
+        &.vercel {
+            background-image: url(/portfolio26/static/images/ico/ico-vercel.png);
+        }
+        &.nextjs {
+            background-image: url(/portfolio26/static/images/ico/ico-nextjs.png);
+        }
     }
 }
+
+
+
 
 
 /* home */
@@ -1126,6 +1134,8 @@ section {
         }
     }
 }
+
+
 
 
 

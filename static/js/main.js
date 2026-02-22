@@ -179,19 +179,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	});
 
-	// document.querySelectorAll('.project-card').forEach(card => {
-	// 	card.addEventListener('mouseenter', function() {
-	// 		this.style.transform = 'translateY(-10px)';
-	// 	});
-		
-	// 	card.addEventListener('mouseleave', function() {
-	// 		if (!this.classList.contains('hidden')) {
-	// 			this.style.transform = 'translateY(0)';
-	// 		}
-	// 	});
-	// });
-
-
 	// Footer 스크롤 도달하면 물결치기
 	const down 		= 'M0-0.3C0-0.3,464,156,1139,156S2278-0.3,2278-0.3V683H0V-0.3z';
 	const center 	= 'M0-0.3C0-0.3,464,0,1139,0s1139-0.3,1139-0.3V683H0V-0.3z';

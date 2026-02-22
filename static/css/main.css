@@ -1306,15 +1306,18 @@ svg .y {
   flex-direction: column;
   gap: 24px;
 }
-.modal .project-item__body .detail .desc {
+.modal .project-item__body .detail .desc,
+.modal .project-item__body .detail .troubleShooting {
   flex-direction: column;
 }
-.modal .project-item__body .detail .desc li {
+.modal .project-item__body .detail .desc li,
+.modal .project-item__body .detail .troubleShooting li {
   position: relative;
   padding-left: 10px;
   margin-bottom: 6px;
 }
-.modal .project-item__body .detail .desc li::before {
+.modal .project-item__body .detail .desc li::before,
+.modal .project-item__body .detail .troubleShooting li::before {
   content: "";
   display: inline-block;
   position: absolute;
@@ -1507,6 +1510,12 @@ section {
 }
 .skill-tag .tag.gulp {
   background-image: url(/portfolio26/static/images/ico/ico-gulp.svg);
+}
+.skill-tag .tag.vercel {
+  background-image: url(/portfolio26/static/images/ico/ico-vercel.png);
+}
+.skill-tag .tag.nextjs {
+  background-image: url(/portfolio26/static/images/ico/ico-nextjs.png);
 }
 
 /* home */
@@ -2428,4 +2437,4 @@ section {
   .work .project-item #jeonjugi .thumb img, .work .project-item #kict .thumb img, .work .project-item #ggwf .thumb img {
     transform: translateY(30px) scale(1.36) !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}
