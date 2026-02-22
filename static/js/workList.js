@@ -75,7 +75,7 @@ function renderSingleProject(project) {
                             ${project.achievement.map(item => `<li>${item}</li>`).join('')}
                         </ul>
                         <p class="summary">
-                            <span class="ctgr">서비스 설명</span>
+                            <span class="ctgr">업무내용</span>
                             ${project.summary}
                         </p>
                         <div class="info">
