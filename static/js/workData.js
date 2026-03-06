@@ -252,4 +252,26 @@ const projects = [
         contribution: '기여도 100%',
         imgs: ['/portfolio26/static/images/work/mp/mp01.jpg', '/portfolio26/static/images/work/mp/mp02.png', '/portfolio26/static/images/work/mp/mp03.png', '/portfolio26/static/images/work/mp/mp04.jpg'],
     },
+    {
+        id: 'bookWishlist',
+        index: 18,
+        projectName: '나중에볼랭',
+        summary: `유튜브 쇼츠나 다양한 콘텐츠를 보다가 흥미로운 책을 발견해도, “나중에 봐야지” 하고 넘긴 뒤 실제로는 어떤 책이었는지 기억하지 못하는 경우가 많습니다. 이 프로젝트는 이러한 개인적인 경험에서 출발했습니다. <br />서울도서관 공공데이터를 활용해 도서를 검색하고, 해당 책을 나만의 위시리스트에 저장할 수 있는 서비스입니다. <br />단순히 책을 저장하는 것에서 그치지 않고, 어디서 추천을 받았는지 또는 어떤 이유로 읽고 싶어졌는지 같은 간단한 메모를 함께 기록할 수 있도록 설계했습니다.`,
+        date: '2026.01',
+        desc: ['Next App Router 기반의 폴더 구조만으로 페이지가 자동 생성되는 Next.js를 사용했으며, 외부 API 호출을 서버에서 처리해 API 키 노출과 CORS 문제를 방지', 
+            '검색어 입력 시 디바운스를 적용하여 불필요한 API 호출을 최소화하고, 다단어 검색 오류에 대응하는 Fallback 전략을 적용해 검색 안정성 향상', 
+            '북마크, 메모, 저장 일시 등 사용자 데이터를 localStorage에 저장해 별로의 로그인 없이 개인 도서 위시리스트를 관리할 수 있도록 구현', 
+            'SCSS를 컴포넌트 및 페이지 단위로 모듈화하여 스타일을 분리하여 관리'
+        ],
+        troubleShooting: [
+            '서울도서관 OpenAPI에 표지 이미지 필드 없음 👉 카카오 책 검색 API를 ISBN 기반으로 호출하여 원본 이미지 URL 추출하여 책 표지 이미지에 노출',
+            '다단어 검색 시 공백이 포함된 검색어를 서버가 경로 분리로 오인해 에러발생 👉 Fallback을 추가하여 검색어를 단어수로 줄여가며 결과가 나올떄까지 단계별로 재시도하여 정확도 향상'
+        ],
+        skills: ['react', 'nextjs', 'js', 'github', 'vercel'],
+        achievement: ['#사이드 프로젝트','#반응형', '#React','#NextJS'],
+        teamNum: '퍼블리셔 1명',
+        contribution: '기여도 100%',
+        link: 'https://wish-booklist.vercel.app/',
+        imgs: ['/portfolio26/static/images/work/book-wishlist/book-wishlist.png', '/portfolio26/static/images/work/book-wishlist/book-wishlist2.png'],
+    },
 ];
